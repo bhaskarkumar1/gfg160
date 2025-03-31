@@ -1,4 +1,5 @@
 import arrayModule.MoveAllZeroToEnd;
+import arrayModule.ReverseArray;
 import arrayModule.SecondMax;
 
 import java.util.Arrays;
@@ -15,6 +16,9 @@ public class Main {
         int moveZero[] ={0,2,0,1,0,3};
         MoveAllZeroToEnd mv= new MoveAllZeroToEnd();
         mv.MoveAllZero2End(moveZero);
+        System.out.println(Arrays.toString(moveZero));
+        ReverseArray rev= new ReverseArray();
+        rev.reverseArray(moveZero);
         System.out.println(Arrays.toString(moveZero));
     }
 }
